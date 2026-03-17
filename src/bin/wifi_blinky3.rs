@@ -67,7 +67,7 @@ async fn main(spawner: Spawner) {
         .await;
 
     let delay1 = Duration::from_secs(1);
-    let delay2 = Duration::from_millis(250);
+    let delay2 = Duration::from_millis(500);
     loop {
         for _i in 0..3{
             info!("led on_fast!");
